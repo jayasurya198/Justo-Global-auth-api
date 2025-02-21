@@ -1,0 +1,7 @@
+module.exports = {
+  RATE_LIMIT: 5,
+  LOCK_TIME: 15 * 60 * 1000,
+  MAX_FAILED_ATTEMPTS: 3,
+  TOKEN_EXPIRY: "1h",
+  LINK_EXPIRY: 10 * 60 * 1000,
+};
